@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First GitHub Desktop Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <div class="shell-inner">
+        <section>
+          <header class="header">
+            <div class="brand">
+              <div class="badge">M</div>
+              <div class="title-group">
+                <div class="title">My First GitHub Desktop</div>
+                <div class="subtitle">로컬에서 실험하며 배우는 작은 공간</div>
+              </div>
+            </div>
+            <div class="status">
+              <span class="status-dot"></span>
+              <span class="status-strong">Ready</span>
+              <span>to start coding</span>
+            </div>
+          </header>
+
+          <div class="pill-row">
+            <div class="pill">
+              <strong>로컬 개발</strong> · 안전하게 코드 실험
+            </div>
+            <div class="pill">
+              <strong>GitHub Desktop</strong> · 커밋 · 브랜치 · 되돌리기
+            </div>
+            <div class="pill">
+              <strong>Cursor</strong> 와 함께하는 AI 코딩
+            </div>
+          </div>
+
+          <section class="hero">
+            <h1 class="hero-title">
+              지금 이
+              <span>프로젝트</span>
+              에서<br />원하는 실험을 시작해 보세요.
+            </h1>
+            <p class="hero-description">
+              이 `index.html`은 <strong>시작점</strong>일 뿐입니다.  
+              내용을 자유롭게 바꾸고, 스타일을 수정하고, JS 파일을 추가해 보세요.
+              그 과정에서 <strong>GitHub Desktop</strong>으로 변경 이력을 남기며
+              연습할 수 있습니다.
+            </p>
+
+            <div class="cta-row">
+              <button
+                class="btn-primary"
+                type="button"
+                onclick="document.getElementById('steps').scrollIntoView({ behavior: 'smooth' })"
+              >
+                <span>다음 단계 보기</span>
+              </button>
+              <div class="btn-secondary">
+                이 파일을 수정하고 저장한 뒤,
+                <strong>GitHub Desktop</strong>에서 변화를 확인해 보세요.
+              </div>
+            </div>
+
+            <p class="note">
+              에디터에서 이 파일을 열고
+              <strong>실시간 미리보기</strong>를 보고 싶다면 브라우저에서  
+              이 파일을 직접 열거나, 간단한 개발 서버를 띄워 둘 수 있습니다.
+              (예: VS Code Live Server 등)
+            </p>
+          </section>
+        </section>
+
+        <aside>
+          <div class="grid">
+            <section class="card" id="steps">
+              <div class="card-label">GET STARTED</div>
+              <ol class="steps">
+                <li class="step">
+                  <div class="step-index">1</div>
+                  <div class="step-main">
+                    `index.html` 수정하기
+                    <span
+                      >텍스트를 고치거나, 색상을 바꾸거나, 새로운 섹션을
+                      추가해 보세요.</span
+                    >
+                  </div>
+                </li>
+                <li class="step">
+                  <div class="step-index">2</div>
+                  <div class="step-main">
+                    GitHub Desktop 확인
+                    <span
+                      >변경 사항이 어떻게 표시되는지 확인하고 첫 커밋을
+                      만들어 보세요.</span
+                    >
+                  </div>
+                </li>
+                <li class="step">
+                  <div class="step-index">3</div>
+                  <div class="step-main">
+                    브랜치 만들어 보기
+                    <span
+                      >새 브랜치를 만들어 다른 아이디어를 실험한 뒤, 다시
+                      병합해 볼 수 있습니다.</span
+                    >
+                  </div>
+                </li>
+              </ol>
+
+              <div class="code">
+                <div class="code-badge">
+                  <span class="code-dot"></span>
+                  <span>터미널에서 로컬 서버 실행 예시</span>
+                </div>
+                <div>python -m http.server 8000</div>
+              </div>
+
+              <div class="pill-small-row">
+                <span class="pill-small">HTML · CSS 연습</span>
+                <span class="pill-small">Git 기본기 연습</span>
+                <span class="pill-small">안전한 실험 공간</span>
+              </div>
+            </section>
+
+            <section class="card">
+              <div class="card-label">PROJECT SNAPSHOT</div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-left">
+                    <span class="dot"></span>
+                    <span class="timeline-label">Repository</span>
+                  </div>
+                  <span class="timeline-value">my-first-github-desktop</span>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-left">
+                    <span class="dot"></span>
+                    <span class="timeline-label">Entry file</span>
+                  </div>
+                  <span class="timeline-value">index.html</span>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-left">
+                    <span class="dot"></span>
+                    <span class="timeline-label">Next idea</span>
+                  </div>
+                  <span class="badge-soft">JS / React / 디자인 연습</span>
+                </div>
+              </div>
+
+              <div class="footer-row">
+                <div class="footer-left">
+                  <strong>Tip.</strong> 마음껏 망쳐도 됩니다.  
+                  필요하면 GitHub Desktop으로 언제든지 되돌릴 수 있습니다.
+                </div>
+                <div class="footer-right">
+                  <span class="footer-pill">Shift + 클릭으로 여러 줄 선택</span>
+                  <span class="footer-pill">Ctrl + Z 로 되돌리기</span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
